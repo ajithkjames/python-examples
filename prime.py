@@ -1,0 +1,1 @@
+print ([a for a in range(1,100) if all(a%b!=0 for b in range(2,a)) ])
